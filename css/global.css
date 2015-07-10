@@ -1,0 +1,63 @@
+ /*  
+  @Description:中国网河南频道  
+  @Author:    liujinghao  
+  @Update:       
+ */ 
+
+/*CSS重构*/
+
+
+.topdiv{
+width:250px; 
+height:100%; 
+overflow:hidden; 
+background:#8DD7FF; 
+}
+
+
+.topdiv { 
+top:0; 
+position:fixed; 
+background-color: #8DD7FF;
+_position:absolute;
+z-index:999;
+_top:expression(documentElement.scrollTop);}
+
+
+.topnav{  
+width: 100%;
+margin: 50px 0px 0px 0px;
+}
+
+.topnav ul {
+list-style-type:none;
+margin:0;
+padding:0;
+width:100%;
+padding-top:6px;
+padding-bottom:6px;
+}
+
+
+.topnav a
+{
+color:white;
+display:block;
+width:225px;
+text-align:right;
+}
+
+.topnav a:link, .nav a:visited
+{
+font-weight:bold;
+background-color:#8DD7FF;
+padding:6px;
+text-decoration:none;
+}
+
+.topnav a:hover,.nav a:active
+{
+background-color:#7A991A;
+}
+
+

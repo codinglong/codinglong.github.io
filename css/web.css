@@ -1,0 +1,240 @@
+/* ----------------------------------------------
+   HTML ELEMENTS
+------------------------------------------------- */ 
+
+
+/* Links */
+a:link, a:visited {
+	text-decoration: none;
+	font-size:105%;
+	font-style: italic;
+	color:blue;
+}
+a:hover {
+	color: blue; text-decoration:underline;
+}
+
+/* Headers */
+h1, h2, h3, h4 {
+	font: bold 1em/1.01em Georgia, 'Times New Roman', Times, serif;
+	color: #555;
+}
+h1 { font-size: 2.4em; font-weight: bolder; color:blue; letter-spacing: -0.5px;margin-bottom:15px;margin-top:8px;}
+h2 { font-size: 2.0em; font-weight: normal; padding-top: 15px; padding-bottom: 15px;}
+h3 { font-size: 1.6em; font-weight: normal; letter-spacing: -0.5px; padding-top: 10px; padding-bottom: 10px;}
+h4 { font-size: 1.2em; }
+p  { font-size: 1.15em; }
+li   { font-size: 1.1em; padding-top: 5px; padding-bottom: 5px;}
+
+/* Lists */
+ul, ol {
+	margin: 10px 0px 10px 0px;
+	//padding: 0 20px;
+}
+ul { list-style: disc; }
+ol { list-style: decimal; }
+
+dt {
+  font-weight: bold;
+  color: #1980AF;	
+}
+dd {
+  padding-left: 20px; 
+}
+
+p, dl { margin: 10px 20px; }
+
+
+span {
+	display:block;
+}
+
+sup {
+border-radius:3px;
+font-size:60%;
+color:#FFFFFF;
+background:#FFAAD7;
+}
+
+/* change from 0 0 0 250 to  0 0 0 0 to remove the navigator */
+.mymaj{
+margin:0px 0px 0px 0px;
+}
+.mybody{
+	font-size: 1.1em;
+	font-family: Georgia, serif;
+	color: #222222;	
+	margin: 0 auto; 
+	padding: 0; 
+	background: white;
+	text-align: left;
+	width:900px;
+}
+
+.wel {
+    font-size: 1.5em;
+    width:100%;
+    color:red;
+    line-height: 150%;
+    font-weight: bolder;
+    margin:20px 0px 80px 0px;
+    border-bottom: 2px solid black;
+}
+
+.intro {
+	margin: 60px 0px 0px 0px;
+	width: 900px;	
+	height: 307px;	
+	font-weight:bold;	
+}
+
+.image-block {
+	float: left;
+	width: 200px;	
+	margin: 0px 0px 0px 0px;
+	height: 257px;
+	display: inline;
+}
+
+.text-block {
+	float: right;
+	width: 690px;
+	margin: 0 0 0 0;
+	height: 257px;
+	display: inline;
+	font-size:90%;
+	text-align: right;
+}
+
+.mydiv {
+	margin:20px 0px 0px 0px;
+	width:900px;
+	text-align:justify;
+}
+
+.pubdiv {
+	margin:20px 0px 0px 0px;
+	width:900px;
+	text-align:justify;
+}
+
+.pubdiv a{
+float:right;
+margin:0px 0px 0px 10px;
+border-radius:8px;
+font-size:1.1em;
+color:#FFFFFF;
+}
+.pubdiv a:link, .nav a:visited
+{
+background-color:#FFD7AA;
+text-align:center;
+padding:6px;
+text-decoration:none;
+}
+
+.pubdiv a:hover,.nav a:active
+{
+background-color:#FA8108;
+}
+
+.pubdiv li  
+{
+margin: 0px 0px 20px 0px; 
+font-size: 100%;
+}
+
+.title {
+	margin:50px 0px 0px 0px;
+	width:900px;
+	font-size:24pt;
+	font-weight:bold;
+	color:blue;
+	border-bottom:2px solid black;
+}
+
+#left-b {
+	float:left;
+	width:600px;
+	font-size:95%;
+	display:inline;
+	margin:5px 0px 5px 0;
+}
+
+#right-b {
+	float:right;
+	width:280px;
+	font-size:95%;
+	display:inline;
+	margin:5px 0px 5px 0;
+}
+
+#right-b li{
+	list-style:none;
+	text-align: right;
+}
+
+.clear {
+  clear: both;
+  }
+
+
+ .end {
+     margin: 50px 0px 10px 0px;
+     width:900px;
+     border-top: 1px solid gray;
+ }
+ 
+ .nav {
+margin:50px 0px 10px 0px;
+width:900px;
+border-bottom:4px solid #7A991A;
+}
+
+.nav ul {
+list-style-type:none;
+margin:0;
+padding:0;
+padding-top:6px;
+padding-bottom:6px;
+}
+
+.nav li{
+display:inline;
+}
+
+.nav a:link, .nav a:visited
+{
+font-weight:bold;
+color:#FFFFFF;
+background-color:#98bf21;
+text-align:center;
+padding:6px;
+text-decoration:none;
+}
+
+.nav a:hover,.nav a:active
+{
+background-color:#7A991A;
+}
+
+.back {
+  margin: 10px 0px 10px 0px;
+  text-align:right;
+  width:900px;
+  }
+
+.back a:link, .back a:visited
+{
+font-weight:bold;
+color:white;
+background-color:#98bf21;
+text-align:center;
+padding:6px;
+text-decoration:none;
+}
+
+.back a:hover,.back a:active
+{
+background-color:#7A991A;
+}
